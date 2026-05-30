@@ -10,12 +10,18 @@
 | **2 — 그룹 등변 CNN** (C₄/D₄ 군론, lifting & group convolution, 회전 MNIST) | `Tutorial_on_Group_Convolutional_Networks_AMMI_Geometric_Deep_Learning_Course.ipynb` | `..._solution.ipynb` |
 | **3 — 기하학적 GNN** (QM9, 불변/등변 메시지 패싱 / EGNN) | `[Public]_GDL100_Practical_3.ipynb` | `[Public]_GDL100_Practical_3_solution.ipynb` |
 
-빈 노트북은 원본 그대로 두었고, `*_solution.ipynb` 파일에 모든 코드 빈칸
-(`# YOUR CODE HERE`, `### BEGIN/END SOLUTION`)과 서술형·증명 답안을 채웠습니다.
+각 실습은 아래 **네 가지** 파일로 제공됩니다(`X` = 노트북 이름):
 
-추가로, 마크다운 설명·증명과 코드 주석/독스트링까지 **전부 한국어로 옮긴**
-`*_solution_ko.ipynb` 버전도 함께 넣어 두었습니다(LaTeX 수식과 코드 로직은 그대로 유지).
-한글본의 코드 역시 직접 실행하여 동일하게 동작함을 확인했습니다.
+| 파일 | 설명 |
+|---|---|
+| `X.ipynb` | 빈 원본 (배포본 그대로) |
+| `X_ko.ipynb` | **빈 원본의 한국어판** — 설명·주석은 한글, 코드 빈칸은 그대로(직접 채우는 용) |
+| `X_solution.ipynb` | 정답본 (영문) |
+| `X_solution_ko.ipynb` | **정답본의 한국어판** — 설명·증명·주석까지 전부 한글 |
+
+한국어판은 모든 마크다운(과제 설명·증명)과 코드 주석/독스트링을 한글로 옮기되,
+**LaTeX 수식과 코드 로직은 그대로 유지**했습니다. 코드는 토큰 단위로 원본과 대조하여
+한 글자도 바뀌지 않았음을 확인했고, 정답본 한국어판은 직접 실행해 동일하게 동작함을 검증했습니다.
 
 ## 구현 내용
 
