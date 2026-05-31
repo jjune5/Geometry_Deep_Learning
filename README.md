@@ -53,3 +53,5 @@
 - 실습 3: 순열·회전·이동 불변/등변 단위 테스트가 모두 기대대로 동작.
 
 학습 셀(Cora / ZINC / QM9 / 회전 MNIST)은 GPU가 있는 Google Colab에서 실행하면 됩니다.
+
+각 실습이 강의 1–12 중 어디에 대응하는지는 [`LECTURE_MAP.md`](LECTURE_MAP.md) 참고.
